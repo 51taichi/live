@@ -6,6 +6,7 @@
     <title>道家养生 | 免费资料与直播</title>
     <!-- 引入 Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="990e837d-e2b3-4aef-95ea-1763b8ae81e8"></script>
     <!-- 设置 Inter 字体 -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
@@ -80,7 +81,7 @@
                 <!-- 复制微信号按钮 -->
                 <div class="text-center space-y-2">
                     <p class="text-base text-gray-600 font-medium">我的微信号：<span id="wechat-id" class="text-green-700 font-extrabold select-all">XQYL76</span></p>
-                    <button onclick="copyToClipboard('wechat-id')" 
+                    <button onclick="copyToClipboard('wechat-id')" data-umami-event="Getwechat button"
                             class="w-full py-3 bg-green-500 text-white font-bold rounded-xl shadow-lg hover:bg-green-600 transition duration-150 transform hover:scale-[1.02] active:scale-95">
                         一键复制微信号
                     </button>
@@ -108,7 +109,7 @@
 
                 <!-- 直接跳转链接 (适用于移动端) -->
                 <div class="text-center">
-                    <a href="https://wa.me/85246900911" target="_blank"
+                    <a href="https://wa.me/85246900911" target="_blank" data-umami-event="Getwhatsapp button"
                        class="inline-block w-full py-3 bg-indigo-600 text-white font-bold rounded-xl shadow-lg hover:bg-indigo-700 transition duration-150 transform hover:scale-[1.02] active:scale-95">
                         点击直接进入 WhatsApp
                     </a>
@@ -206,4 +207,5 @@
 </script>
 
 </body>
+
 </html>
